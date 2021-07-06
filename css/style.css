@@ -50,7 +50,10 @@ section{
     padding: 50px 0px;
 }
 
-/* ............start order-top...................*/
+/* ............order-top...................*/
+#order-top{
+    background: white;
+}
 #order-top .order-top-inner{
     display: flex;
     align-items: center;
@@ -78,7 +81,7 @@ section{
 #order-top .order-top-right img{
     width: 100%;
 }
-/* ...........starting about-me................... */
+/* ...........about-me................... */
  #about-me{
      background-image: url(../images/7.png);
      background-repeat: no-repeat;
@@ -113,7 +116,10 @@ section{
      margin-bottom: 60px;
  }
 
- /* ..............start My-recipies...................... */
+ /* ..............My-recipies...................... */
+ #My-recipies{
+     background: white;
+ }
 #My-recipies .my-recipies-inner{
     display: flex;
     margin: 0 5%;
@@ -160,6 +166,7 @@ section{
 #free-recips{
     display: flex;
     align-items: center;
+    background: white;
 }
 #free-recips .free-recips-left{
     width: 50%;
@@ -192,26 +199,80 @@ section{
     padding: 20px 0;
     border-radius: 50px;
     font-size: 20px;
-    background: #C2CA03;
+    background: linear-gradient(45deg,#FA994C,#FE492E);
     border: none;
     margin-bottom: 20px;
+}
+#free-recips .free-recips-right button &:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 #free-recips .free-recips-right button a{
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-#free-recips .free-recips-right span{
+#free-recips .free-recips-right span a{
     display: block;
     text-align: center;
-    
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
 }
 #free-recips .free-recips-right{
     padding: 0 15%;
 }
 #free-recips .free-recips-title h2{
-    
-        font-size: 28px;
-        color: gray;
-    
+    font-size: 28px;
+    color: gray;
+}
+/* .................counter........................ */
+#counter{
+    display: flex;
+    margin: 0 5%;
+    padding-bottom: 100px;
+    background: white;
+}
+#counter .counter-item-one{
+    width: 33.333%;
+    background:white;
+    margin: 0 2%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px grey;
+}
+#counter .counter-item-one h2{
+    margin: 0;
+    color: black;
+}
+#counter .counter-item-one span{
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: grey;
+}
+/* .............footer-area..................... */
+#footer-area{
+    background: #0B0D17;
+    padding:50px 0 100px;
+}
+#footer-area .footer-area-inner{
+    text-align: center;
+}
+#footer-area .footer-area-inner h4{
+ margin: 0;
+ font-size: 30px;
+ color: grey;
+ margin-bottom: 40px;
+}
+
+#footer-area .footer-area-inner span{
+    color: #FC8545;
+    display: inline-block;
+}
+#footer-area .footer-area-inner p{
+    color: white;
+    font-size: 16px;
 }
