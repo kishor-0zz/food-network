@@ -13,7 +13,7 @@ body{
 p{
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 150%;
    
 }
@@ -41,8 +41,10 @@ h1{
 h2{
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
 }
 section{
     padding: 50px 0px;
@@ -78,8 +80,9 @@ section{
 }
 /* ...........starting about-me................... */
  #about-me{
-     background-image: url(/images/7.png);
+     background-image: url(../images/7.png);
      background-repeat: no-repeat;
+     background-position: right;
      
  }
  #about-me .about-me-inner{
@@ -125,4 +128,90 @@ section{
 }
 #My-recipies .my-recipies-one img{
     width: 100%;
+}
+#My-recipies .my-recipies-one h4{
+    font-size: 26px;
+    font-weight: 900;
+    color: #18191F;
+    font-family: 'Roboto', sans-serif;
+}
+#My-recipies .my-recipies-one p{
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #18191F;
+    line-height: 175%;
+    font-weight: 500;
+}
+#My-recipies .section-title{
+    text-align: center;
+}
+#My-recipies .section-title h2{
+    color: #6E6E6E;
+}
+#My-recipies .section-title p{
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #18191F;
+    margin-bottom: 35px;
+
+}
+/* ......................free-recips......................... */
+#free-recips{
+    display: flex;
+    align-items: center;
+}
+#free-recips .free-recips-left{
+    width: 50%;
+    padding: 0 0 0 7%;
+}
+#free-recips .free-recips-left img{
+    width: 100%;
+}
+#free-recips .free-recips-right{
+    width: 50%;
+    
+}
+#free-recips .free-recips-right input{
+    width: 96%;
+    display: block;
+    margin-bottom: 3%;
+    padding: 30px 10px;
+    border: transparent;
+    border-radius: 5px;
+    background: #E5E5E5;
+}
+
+#free-recips .free-recips-right ::placeholder{
+    color: white;
+    opacity: 1;
+    font-size: 18px;
+}
+#free-recips .free-recips-right button{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #C2CA03;
+    border: none;
+    margin-bottom: 20px;
+}
+#free-recips .free-recips-right button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#free-recips .free-recips-right span{
+    display: block;
+    text-align: center;
+    
+}
+#free-recips .free-recips-right{
+    padding: 0 15%;
+}
+#free-recips .free-recips-title h2{
+    
+        font-size: 28px;
+        color: gray;
+    
 }
